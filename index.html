@@ -1,1 +1,124 @@
-# Biograf-a
+<!DOCTYPE html>
+<html lang="es">
+<head lang="es">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio online de un desarrollador web. Desarrollador front-end Edwin Gallegos Hilasaca, creador de sitios webs.">
+    <meta name="keywords" content="desarrollador web, desarrollador front-end">
+    <meta name="author" content="Edwin Gallegos Hilasaca">
+    <title>Biografía</title>
+
+    <!--Estilos CSS -->
+    <link rel="stylesheet" href="es/css/style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="es/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="es/icons/favicon.png"
+    />
+
+    <!-- Animaciones CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      @keyframes bounce {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1> </h1>
+        <ul class="navegacion" id="">
+          <li class="grow"><a href="#sobremi" class="nav-link">Mi biografía</a></li>
+          <li class="grow"><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+          <ion-icon class="icono" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+    <!-- Barra de Navegación -->
+
+    <!-- Sección Hero  -->
+    <section class="hero" id="sobremi">
+        
+
+
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-titulo">Mi biografía</h2>
+          <p class="bio-texto">
+            Mi nombre es Edwin Gallegos Hilasaca, nací el 4 de mayo de 1998 en Perú
+            actualmente vivo en Perú, ingrese en la Institución Educativa primaria 70607
+            a los 6
+            años, después cuando tuve 12 años ingrese a la Institución Educativa secundaria 
+            "San Martín",
+            luego estudie Ingeniería de software con inteligencia artificial en SENATI ETI. 
+          </p>
+            <p class="bio-texto">
+                Mis padres son Alfonso Gallegos Mayta y Julia Hilasaca Capia, mis hermanos son
+                Ronaldo Gallegos Hilasaca y Karlos David Gallegos Hilasaca. 
+            </p>
+        </div>
+        <div class="hero">
+            <img
+            src="es/img/foto.jpg"
+            alt="edwin"
+            loading="lazy"
+            class="hero-img"
+        />  
+        </div>
+  </section>
+
+    <!-- Vuelve al comienzo  -->
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+    ><img
+      src="es/icons/icons8-scroll-up-48.png"
+      class="flecha-arriba"
+      alt="desplazarse-hacia-arriba"
+  /></i>
+    <!-- Sección Footer  -->
+    <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="https://facebook.com/edwin" target="_blank"
+            >Edwin</a
+          >
+        </p>
+  </footer>
+
+    <!-- Website scripts -->
+    <script src="es/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  
+</body>
+
+</html>
